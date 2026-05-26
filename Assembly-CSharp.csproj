@@ -54,7 +54,6 @@
     <Compile Include="Assets\Script\UI\HPBarDisplay.cs" />
     <Compile Include="Assets\Script\UI\RangeVisualizer.cs" />
     <Compile Include="Assets\Script\Core\Billboard.cs" />
-    <Compile Include="Assets\Script\Minion\MinionSpawner.cs" />
     <Compile Include="Assets\Script\Minion\MinionBrain.cs" />
     <Compile Include="Assets\Script\Building\CityHall.cs" />
     <Compile Include="Assets\Script\Minion\MinionMove.cs" />
@@ -65,7 +64,6 @@
     <Compile Include="Assets\DebugInitializer.cs" />
     <Compile Include="Assets\PlacementSystem.cs" />
     <Compile Include="Assets\ScriptableObjects\MinionStats.cs" />
-    <Compile Include="Assets\Script\Base\BaseStats.cs" />
     <Compile Include="Assets\Script\Stats\StatsHolder.cs" />
     <Compile Include="Assets\Script\Core\Health.cs" />
     <Compile Include="Assets\Script\Stats\StatModifier.cs" />
