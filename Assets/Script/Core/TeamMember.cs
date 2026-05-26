@@ -1,0 +1,17 @@
+using UnityEngine;
+
+public class TeamMember : MonoBehaviour
+{
+    [SerializeField] private Team team = Team.Blue;
+
+    public Team Team => team;
+
+    public event System.Action<Team> OnTeamChanged;
+
+    public void SetTeam(Team newTeam)
+    {
+        if (team == newTeam) return;
+        team = newTeam;
+        OnTeamChanged?.Invoke(team);
+    }
+}

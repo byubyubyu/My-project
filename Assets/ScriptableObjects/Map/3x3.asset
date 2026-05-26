@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f02fa7b71d8454e9b5f18b777ac2cb, type: 3}
+  m_Name: 3x3
+  m_EditorClassIdentifier: Assembly-CSharp::GridTemplate
+  entries:
+  - buildingType: 0
+    gridPosition: {x: 1, y: 1}
+    prefab: {fileID: 2689761206452653293, guid: 6a8438a5423d69d47995e3d6c7b95dcc, type: 3}
+  - buildingType: 1
+    gridPosition: {x: 0, y: 0}
+    prefab: {fileID: 390168526921200477, guid: c43dd14e63c241c449a50c2576601392, type: 3}
